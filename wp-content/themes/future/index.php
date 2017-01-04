@@ -12,7 +12,7 @@ wp_footer();
 <!-- Sidebar -->
 
 <?php //get_template_part('sidebar');
-get_sidebar(  )?>
+get_sidebar()?>
 
 
 <!-- Footer -->

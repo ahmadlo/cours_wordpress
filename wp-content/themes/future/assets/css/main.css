@@ -1,22 +1,4 @@
-/*
-Theme Name: My Future Imperfect Theme
-Theme URI: https://html5up.net/future-imperfect/
-Author: Html: HTML5Up.net - WordPress: Ahmadlo
-Author URI: https://wordpress.org/
-Description: Mon premier thème wordpress
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: future
-Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-/*@import url(font-awesome.min.css);*/
-body.logged-in #header{
-    top:32px;
-}
+@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
 /*

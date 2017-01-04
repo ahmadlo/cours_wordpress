@@ -6,26 +6,22 @@
 -->
 <html>
 	<head>
-		<title>Future Imperfect by HTML5 UP</title>
+		<title><?php bloginfo('name') ?></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <?php
-wp_head(); 
-
-?>
+		
+		
+		
+        <?php wp_head(); ?>
 	</head>
-	<body>
+	<body <?php body_class(); ?>>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="#">Future Imperfect</a></h1>
+						<h1><a href="#"><?php bloginfo('name') ?></a></h1>
 						<nav class="links">
 							<ul>
 								<li><a href="#">Lorem</a></li>

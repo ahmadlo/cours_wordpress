@@ -1,5 +1,5 @@
 <section>
-    <h2>Sidebar mini posts</h2>
+    
     <div class="mini-posts">
 
         <!-- Mini Post -->
