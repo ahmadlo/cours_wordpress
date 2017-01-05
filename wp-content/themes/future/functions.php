@@ -32,6 +32,8 @@
 		'gallery',
 		'audio',
 	) );
+	add_theme_support( 'post-thumbnails' );
+	//set_post_thumbnail_size( 300, 300, array( 'top', 'center')  );
      
  }
  add_action( 'after_setup_theme', 'future_setup' );
